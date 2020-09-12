@@ -1,6 +1,6 @@
 #from tabula import read_pdf
 import PyPDF2
-def pdfparserITR2_2019(x):
+def PDFScrappingBot(x):
 
 
     pdfFileObj = open(x, 'rb')
@@ -727,6 +727,3 @@ def pdfparserITR2_2019(x):
 
     dic["tcs"] = tcs
     return dic
-
-
-#pdfparserITR2_2019(x= r'C:\Users\IT Resurgent\code\ITR-2_AHEPC5078K_2019-20.pdf')
